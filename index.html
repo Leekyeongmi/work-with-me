@@ -19,45 +19,101 @@
     Together!"
     />
     <style>
-      body{
-        margin-left:300px;
-        margin-right:300px
+      body {
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:40px
+    
       }
+      #grid {
+        display: grid;
+        grid-template-columns: 400px 1fr ;
+        /* border:5px pink dotted; */
+     
+      }
+      #main{
+        width:400px;
+        text-align:center;
+        border:3px pink solid;
+        border-right:none;
+      }
+   
+      
+      #comment{
+        padding-left:50px;
+        padding-right:50px;
+        border:3px pink solid;
+      }
+    
     </style>
   </head>
   <body>
-    <div align="center">
-      <h1 style="font-size: 40px">💩 Work With Me 💩</h1>
-      <p style="font-size: 25px">
-        <u><strong>DATE</strong></u> : 2021. 9. 1. (수)<br />
+    <div id="grid">
+      <div id="main">
+      <h1 style="font-size: 30px; ">💩 Work With Me</h1>
+      <div style="font-size: 20px">
+        <u style="color:green"><strong>DATE</strong></u> : 2021. 9. 1. (수)<br />
         <u style="color: blue"><strong>OPEN</strong></u> : 10:30 AM<br />
         <u style="color: red"><strong>CLOSE</strong></u> : 11:00 PM
-      </p>
+      </div>
 
-      <p>
+      <p style="margin-bottom:2px">
         <a
           target="_self"
           href="https://us02web.zoom.us/j/78043450937?pwd=OUdmdy83ck05ampqc2xmUkZ6RkZLdz09"
           ><img
-            width="400px"
+            width="300px"
             title="poopoo!"
             src="https://w.namu.la/s/f044cdbaa770a282620342e6e74104e8ac41634fbea0a3a23358b1a7235bdb890801d1d8bd8dad57ac76eecfe5cf50e160a24ea839cbc7eb5cd9cc5774ccce47a761e7288e1eaff2a9d4442a04ade2149168b03f27f686d67a15e05a5fd40f55"
         /></a>
       </p>
-      <h3 style="color: goldenrod">👆🏻CLICK!👆🏻</h3>
+      <h5 style="color: pink; margin-top: 0"> 👆🏻CLICK!</h5>
 
-      <a href="caution.html" target="_blank" style="color: blueviolet"
+      <a href="caution.html" target="_blank" style="color: black"
         ><u>📌 잠깐, 입장 전에 읽어보세요!</u></a
       ><br /><br />
 
       <p>
         👩🏻 웹페이지는 매일 아침 10시 업데이트됩니다.<br />
-        👀 아래 댓글창도 자유롭게 이용해주세요!
+        👀 오른쪽 댓글창도 자유롭게 이용해주세요!
       </p>
-<!-- begin wwww.htmlcommentbox.com -->
-<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
-<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24bBoAdrc0GWZBOKhPus%2Fit1"+"&opts=16798&num=10&ts=1630405502560");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
-    </body>
+    </div>
+    <div id="comment">
+      <h1 style="font-size: 30px">💡 Comment Box </h1>
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box">
+        <a href="http://www.htmlcommentbox.com">Widget</a> is loading
+        comments...
+      </div>
+      
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"
+      />
+      <script type="text/javascript" id="hcb">
+        /*<!--*/ if (!window.hcb_user) {
+          hcb_user = {};
+        }
+        (function () {
+          var s = document.createElement("script"),
+            l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
+            h = "https://www.htmlcommentbox.com";
+          s.setAttribute("type", "text/javascript");
+          s.setAttribute(
+            "src",
+            h +
+              "/jread?page=" +
+              encodeURIComponent(l).replace("+", "%2B") +
+              "&mod=%241%24wq1rdBcg%24bBoAdrc0GWZBOKhPus%2Fit1" +
+              "&opts=16798&num=10&ts=1630405502560"
+          );
+          if (typeof s != "undefined")
+            document.getElementsByTagName("head")[0].appendChild(s);
+        })(); /*-->*/
+      </script>
+      <!-- end www.htmlcommentbox.com -->
+    </div>
+    </div>
+  
 </html>
