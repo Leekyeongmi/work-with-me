@@ -47,9 +47,9 @@
             src="https://w.namu.la/s/f044cdbaa770a282620342e6e74104e8ac41634fbea0a3a23358b1a7235bdb890801d1d8bd8dad57ac76eecfe5cf50e160a24ea839cbc7eb5cd9cc5774ccce47a761e7288e1eaff2a9d4442a04ade2149168b03f27f686d67a15e05a5fd40f55"
         /></a>
       </p>
-      <h5 style="color: pink; margin-top: 0"> 👆🏻CLICK!</h5>
+      <h5 id="glow" style="color: pink; margin-top: 0"> 👆🏻CLICK!</h5>
 
-      <a href="caution.html" target="_blank" style="color:blueviolet">
+      <a id="notice" href="caution.html" target="_blank" style="color:purple">
         <u>📌 잠깐, 입장 전에 읽어보세요!</u></a
       ><br /><br />
 
@@ -63,16 +63,20 @@
         type="button"
         value="🌞"
         onclick="
-      if(document.querySelector('#night_day').value === '🌞'){
-          document.querySelector('body').style.backgroundColor='white';
-          document.querySelector('body').style.color='black';
-          document.querySelector('#night_day').value = '🌛';
+        var target = document.querySelector('body');
+      if(this.value === '🌞'){
+          target.style.backgroundColor='white';
+          target.style.color='black';
+          this.value = '🌛';
+          document.querySelector('#notice').style.color ='brown';
+          
       }
       
       else{
-          document.querySelector('body').style.backgroundColor='black';
-          document.querySelector('body').style.color='white';
-          document.querySelector('#night_day').value = '🌞';
+          target.style.backgroundColor='black';
+          target.style.color='white';
+          this.value = '🌞';
+          document.querySelector('#notice').style.color ='purple';
       }    
       "/>
       </p>

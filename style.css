@@ -3,10 +3,7 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-#night_day {
-  width: 50px;
-  font-size: 15px;
-}
+
 #title {
   border-bottom: 4px pink solid;
   padding-bottom: 30px;
@@ -37,7 +34,7 @@ body {
   }
 }
 
-h5 {
+#glow {
   font-size: 15px;
   color: #fff;
   text-align: center;
