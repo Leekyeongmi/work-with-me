@@ -3,13 +3,14 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+
 #title {
-  font-size: 50px;
-  text-align: center;
-  border-bottom: 3px pink solid;
+  border-bottom: 4px pink solid;
   padding-bottom: 30px;
   padding-top: 25px;
   margin: 0;
+  font-size: 50px;
+  text-align: center;
 }
 #grid {
   display: grid;
@@ -19,7 +20,7 @@ body {
 #main {
   width: 400px;
   text-align: center;
-  border-right: 3px pink solid;
+  border-right: 4px pink solid;
 }
 
 #comment {
@@ -30,5 +31,25 @@ body {
 @media (max-width: 500px) {
   #title {
     font-size: 40px;
+  }
+}
+
+h5 {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
