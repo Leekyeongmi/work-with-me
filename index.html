@@ -56,7 +56,27 @@
       <p>
         👩🏻 날짜/시간은 매일 아침 10시 업데이트됩니닷<br />
         👀 오른쪽 댓글창도 자유롭게 사용해주세요.
+        </p>
+        <p>
+        <input
+        id="night_day"
+        type="button"
+        value="🌞"
+        onclick="
+      if(document.querySelector('#night_day').value === '🌞'){
+          document.querySelector('body').style.backgroundColor='white';
+          document.querySelector('body').style.color='black';
+          document.querySelector('#night_day').value = '🌛';
+      }
+      
+      else{
+          document.querySelector('body').style.backgroundColor='black';
+          document.querySelector('body').style.color='white';
+          document.querySelector('#night_day').value = '🌞';
+      }    
+      "/>
       </p>
+  
     </div>
     <div id="comment">
       <h1 style="text-align:center;">💡 Comment Box </h1>
