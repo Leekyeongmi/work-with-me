@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    <script>
+      function switchHandler(self) {
+        var target = document.querySelector("body");
+        if (self.value === "🌞") {
+          target.style.backgroundColor = "white";
+          target.style.color = "black";
+          self.value = "🌛";
+          document.querySelector("#notice").style.color = "brown";
+        } else {
+          target.style.backgroundColor = "black";
+          target.style.color = "white";
+          self.value = "🌞";
+          document.querySelector("#notice").style.color = "pink";
+        }
+      }
+    </script>
     <title>Welcome - GoldPoo💩</title>
     <link rel="shortcut icon" href="gold.jpg" />
     <meta charset="utf-8" />
@@ -49,23 +65,7 @@
             id="night_day"
             type="button"
             value="🌞"
-            onclick="
-                  var target = document.querySelector('body');
-                if(this.value === '🌞'){
-                    target.style.backgroundColor='white';
-                    target.style.color='black';
-                    this.value = '🌛';
-                    document.querySelector('#notice').style.color ='brown';
-                    
-                }
-                
-                else{
-                    target.style.backgroundColor='black';
-                    target.style.color='white';
-                    this.value = '🌞';
-                    document.querySelector('#notice').style.color ='pink';
-                }    
-                "
+            onclick="switchHandler(this)"
           />
         </p>
       </div>
