@@ -20,29 +20,12 @@ h1 {
   grid-template-columns: 400px 1fr;
   /* border:5px pink dotted; */
 }
-#main {
-  width: 400px;
 
-  /* border-right: 4px pink solid; */
-}
-
-#comment {
-  border-top: pink solid 4px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   #title {
-    font-size: 60px;
+    font-size: 50px;
   }
-}
-
-#glow {
-  font-size: 15px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  #grid {
+    display: block;
+  }
 }
