@@ -9,7 +9,6 @@ h1 {
 }
 
 #title {
-  /* border-bottom: 4px pink solid; */
   padding-bottom: 30px;
   padding-top: 25px;
   margin: 0;
@@ -18,7 +17,6 @@ h1 {
 #grid {
   display: grid;
   grid-template-columns: 400px 1fr;
-  /* border:5px pink dotted; */
 }
 
 @media (max-width: 500px) {
