@@ -47,18 +47,10 @@
 
     <div id="grid">
       <div id="main">
-        <input
-          id="night_day"
-          type="button"
-          value="🌛"
-          onclick="switchHandler(this)"
-          position="absolute"
-          style="position: absolute; left: 0; top: 0"
-        />
         <p id="date" class="mainfont">
-          <strong>DATE.</strong> 2021. 9. 5. (일)<br />
-          <strong>OPEN.</strong> 10 AM <br />
-          <strong>CLOSE.</strong> 10 PM<br />
+          <strong>DATE</strong> 2021. 9. 5. (일)<br />
+          <strong>OPEN</strong> 10 AM <br />
+          <strong>CLOSE</strong> 10 PM<br />
         </p>
         <img
           src="hisom.jpg"
@@ -67,7 +59,7 @@
             position: fixed;
             top: 100px;
             left: 25px;
-            width: 550px;
+            width: 650px;
           "
         />
         <a
@@ -83,7 +75,15 @@
           onmouseover="imageshow();"
           onmouseout="imagegone();"
           >👩🏻 Join With Me?</a
-        >
+        ><br />
+
+        <input
+          type="button"
+          value="🌛"
+          onclick="switchHandler(this)"
+          position="sticky"
+          style="margin-top: 50px; width: 10%; height: 5%; display: block"
+        />
       </div>
       <div>
         <!-- begin wwww.htmlcommentbox.com -->
