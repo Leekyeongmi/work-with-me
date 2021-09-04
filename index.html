@@ -28,12 +28,12 @@
         var target = document.querySelector("#main");
         if (self.value === "🌛") {
           target.style.backgroundColor = "black";
-          target.style.color = "white";
+          document.querySelector("#date").style.color = "white";
           colorChange("pink");
           self.value = "🌞";
         } else {
           target.style.backgroundColor = "#fce38a";
-          target.style.color = "black";
+          document.querySelector("#date").style.color = "black";
           colorChange("black");
           self.value = "🌛";
         }
@@ -55,7 +55,7 @@
           position="absolute"
           style="position: absolute; left: 0; top: 0"
         />
-        <p class="mainfont">
+        <p id="date" class="mainfont">
           <strong>DATE.</strong> 2021. 9. 5. (일)<br />
           <strong>OPEN.</strong> 10 AM <br />
           <strong>CLOSE.</strong> 10 PM<br />
