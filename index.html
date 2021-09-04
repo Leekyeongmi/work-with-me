@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>GoldPoop</title>
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href="gold.jpg" />
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Work With Me" />
+    <meta property="og:image" content="som.jpg" />
+    <meta property="og:description" content="Let's Work Together!" />
     <link rel="stylesheet" href="style.css" />
     <script>
       function imageshow() {
@@ -11,14 +16,45 @@
       function imagegone() {
         document.querySelector("img").style.display = "none";
       }
+      function colorChange(choice) {
+        var alist = document.querySelectorAll("a");
+        var i = 0;
+        while (i < 2) {
+          alist[i].style.color = choice;
+          i++;
+        }
+      }
+      function switchHandler(self) {
+        var target = document.querySelector("#main");
+        if (self.value === "🌛") {
+          target.style.backgroundColor = "black";
+          target.style.color = "white";
+          colorChange("pink");
+          self.value = "🌞";
+        } else {
+          target.style.backgroundColor = "#fce38a";
+          target.style.color = "black";
+          colorChange("black");
+          self.value = "🌛";
+        }
+      }
     </script>
   </head>
   <body>
     <script>
       alert("HELLO!👻");
     </script>
+
     <div id="grid">
       <div id="main">
+        <input
+          id="night_day"
+          type="button"
+          value="🌛"
+          onclick="switchHandler(this)"
+          position="absolute"
+          style="position: absolute; left: 0; top: 0"
+        />
         <p class="mainfont">
           <strong>DATE.</strong> 2021. 9. 5. (일)<br />
           <strong>OPEN.</strong> 10 AM <br />
@@ -36,10 +72,10 @@
         />
         <a
           class="mainfont"
-          style="font-size: 40px; color: black; display: block"
+          style="font-size: 40px; color: black"
           href="caution.html"
           >📌 Notice</a
-        >
+        ><br />
         <a
           class="mainfont"
           style="font-size: 40px; color: black"
