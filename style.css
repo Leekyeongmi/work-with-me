@@ -8,7 +8,7 @@ h1 {
 }
 #title {
   padding-bottom: 30px;
-  padding-top: 25px;
+
   margin: 0;
   font-size: 90px;
 }
@@ -29,9 +29,27 @@ h1 {
   #grid {
     display: block;
   }
+  iframe {
+    width: 600px;
+  }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 479px) {
   #grid {
     display: block;
+  }
+  iframe {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  #grid {
+    display: block;
+  }
+  p {
+    font-size: smaller;
+  }
+  iframe {
+    width: 700px;
   }
 }
