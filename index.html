@@ -1,156 +1,127 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <title>WELCOME - GoldPoop</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="gold.jpg" />
-
     <script>
       function switchHandler(self) {
-        var target = document.querySelector("#background");
+        var target = document.querySelector("body");
         if (self.value === "🌞") {
           target.style.backgroundColor = "white";
           target.style.color = "black";
           self.value = "🌛";
           document.querySelector("#notice").style.color = "brown";
-          document.querySelector("#comment").style.backgroundColor = "black";
-          document.querySelector("#comment").style.color = "white";
         } else {
           target.style.backgroundColor = "black";
           target.style.color = "white";
           self.value = "🌞";
           document.querySelector("#notice").style.color = "pink";
-          document.querySelector("#comment").style.backgroundColor = "white";
-          document.querySelector("#comment").style.color = "black";
         }
       }
     </script>
-    <style>
-      body {
-        margin: 0;
-      }
-      #title {
-        font-size: 70px;
-        padding-left: 25px;
-        margin-bottom: 30px;
-        margin-top: 20px;
-      }
-      #grid {
-        display: grid;
-        grid-template-columns: 730px 1fr;
-      }
-      #background {
-        background-color: black;
-        color: white;
-        height: 5000px;
-      }
-      #info {
-        padding-left: 30px;
-      }
-      #comment {
-        padding-left: 10px;
-        padding-top: 45px;
-      }
-      #grid2 {
-        display: grid;
-        grid-template-columns: 1.1fr 1fr;
-      }
-    </style>
+    <title>Welcome - GoldPoo💩</title>
+    <link rel="shortcut icon" href="gold.jpg" />
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Work With Me" />
+    <meta
+      property="og:image"
+      content="https://w.namu.la/s/f044cdbaa770a282620342e6e74104e8ac41634fbea0a3a23358b1a7235bdb890801d1d8bd8dad57ac76eecfe5cf50e160a24ea839cbc7eb5cd9cc5774ccce47a761e7288e1eaff2a9d4442a04ade2149168b03f27f686d67a15e05a5fd40f55"
+    />
+    <meta
+      property="og:description"
+      content="Let's Work>
+    Together!"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body style="background-color: black; color: white; margin-left: 20px">
     <script>
       alert("오늘은 가족행사로 쉴거밍!🎈ㅎ");
     </script>
+    <h1 id="title">WORK WITH ME!💩</h1>
     <div id="grid">
-      <div id="background">
-        <input
-          id="night_day"
-          type="button"
-          value="🌞"
-          onclick="switchHandler(this)"
-        />
-        <h1 id="title">WORK WITH ME!💩</h1>
-        <div id="grid2">
-          <div id="info">
-            <h1>Opening Hours</h1>
-            <div style="font-size: 25px">
-              <u><strong>DATE</strong></u> : 2021. 9. 4. (토)<br />
-              <u><strong>OPEN</strong></u> : 🍭 AM<br />
-              <u><strong>CLOSE</strong></u> : 👻 PM
-            </div>
-            <p>
-              <br />
-              👩🏻 날짜/시간은 매일 아침 10시 업데이트됩니닷<br />
-              👀 오른쪽 댓글창도 자유롭게 사용해주세요
-            </p>
-            <div style="margin-top: 30px">
-              <a
-                id="notice"
-                href="caution.html"
-                target="_blank"
-                style="color: pink"
-              >
-                <u>📌 잠깐, 입장 전에 읽어보세요!</u></a
-              >
-            </div>
-          </div>
-          <div style="margin-left: 30px; margin-top: 50px">
-            <iframe
-              width="280"
-              height="280"
-              src="https://www.youtube.com/embed/oR2sWczbLBc"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <!-- <a
-              target="_self"
-              href="https://us02web.zoom.us/j/78043450937?pwd=OUdmdy83ck05ampqc2xmUkZ6RkZLdz09"
-              ><img
-                style="margin-top: 80px; margin-left: 20px"
-                width="350px"
-                title="poopoo!"
-                src="https://w.namu.la/s/f044cdbaa770a282620342e6e74104e8ac41634fbea0a3a23358b1a7235bdb890801d1d8bd8dad57ac76eecfe5cf50e160a24ea839cbc7eb5cd9cc5774ccce47a761e7288e1eaff2a9d4442a04ade2149168b03f27f686d67a15e05a5fd40f55"
-            /></a> -->
-          </div>
+      <div>
+        <h1>Opening Hours</h1>
+        <div style="font-size: 25px">
+          <u><strong>DATE</strong></u> : 2021. 9. 4. (토)<br />
+          <u><strong>OPEN</strong></u> : 🍭 AM<br />
+          <u><strong>CLOSE</strong></u> : 👻 PM
         </div>
+        <p>
+          <br />
+          👩🏻 날짜/시간은 매일 아침 10시 업데이트됩니닷<br />
+          👀 아래 댓글창도 자유롭게 사용해주세요
+        </p>
+        <div style="margin-top: 30px">
+          <a
+            id="notice"
+            href="caution.html"
+            target="_blank"
+            style="color: pink"
+          >
+            <u>📌 잠깐, 입장 전에 읽어보세요!</u></a
+          >
+        </div>
+        <p style="margin-top: 55px">
+          <input
+            id="night_day"
+            type="button"
+            value="🌞"
+            onclick="switchHandler(this)"
+          />
+        </p>
       </div>
-      <div id="comment">
-        <!-- begin wwww.htmlcommentbox.com -->
-        <div id="HCB_comment_box">
-          <a href="http://www.htmlcommentbox.com">Widget</a> is loading
-          comments...
-        </div>
-
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"
-        />
-        <script type="text/javascript" id="hcb">
-          /*<!--*/ if (!window.hcb_user) {
-            hcb_user = {};
-          }
-          (function () {
-            var s = document.createElement("script"),
-              l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-              h = "https://www.htmlcommentbox.com";
-            s.setAttribute("type", "text/javascript");
-            s.setAttribute(
-              "src",
-              h +
-                "/jread?page=" +
-                encodeURIComponent(l).replace("+", "%2B") +
-                "&mod=%241%24wq1rdBcg%24bBoAdrc0GWZBOKhPus%2Fit1" +
-                "&opts=16798&num=10&ts=1630405502560"
-            );
-            if (typeof s != "undefined")
-              document.getElementsByTagName("head")[0].appendChild(s);
-          })(); /*-->*/
-        </script>
-        <!-- end www.htmlcommentbox.com -->
+      <div style="margin-top: 60px">
+        <iframe
+          width="450"
+          height="300"
+          src="https://www.youtube.com/embed/oR2sWczbLBc?start=50"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <!-- <a
+          target="_self"
+          href="https://us02web.zoom.us/j/78043450937?pwd=OUdmdy83ck05ampqc2xmUkZ6RkZLdz09"
+          ><img
+            width="450px"
+            title="poopoo!"
+            src="https://w.namu.la/s/f044cdbaa770a282620342e6e74104e8ac41634fbea0a3a23358b1a7235bdb890801d1d8bd8dad57ac76eecfe5cf50e160a24ea839cbc7eb5cd9cc5774ccce47a761e7288e1eaff2a9d4442a04ade2149168b03f27f686d67a15e05a5fd40f55"
+        /></a> -->
       </div>
     </div>
+
+    <h1 style="margin-top: 100px">Comment Box</h1>
+    <!-- begin wwww.htmlcommentbox.com -->
+    <div id="HCB_comment_box" style="width: 1050px">
+      <a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...
+    </div>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"
+    />
+    <script type="text/javascript" id="hcb">
+      /*<!--*/ if (!window.hcb_user) {
+        hcb_user = {};
+      }
+      (function () {
+        var s = document.createElement("script"),
+          l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
+          h = "https://www.htmlcommentbox.com";
+        s.setAttribute("type", "text/javascript");
+        s.setAttribute(
+          "src",
+          h +
+            "/jread?page=" +
+            encodeURIComponent(l).replace("+", "%2B") +
+            "&mod=%241%24wq1rdBcg%24bBoAdrc0GWZBOKhPus%2Fit1" +
+            "&opts=16798&num=10&ts=1630405502560"
+        );
+        if (typeof s != "undefined")
+          document.getElementsByTagName("head")[0].appendChild(s);
+      })(); /*-->*/
+    </script>
+    <!-- end www.htmlcommentbox.com -->
   </body>
 </html>

@@ -3,11 +3,9 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
 h1 {
   font-size: 40px;
 }
-
 #title {
   padding-bottom: 30px;
   padding-top: 25px;
@@ -18,7 +16,6 @@ h1 {
   display: grid;
   grid-template-columns: 400px 1fr;
 }
-
 @media (max-width: 500px) {
   #title {
     font-size: 50px;
