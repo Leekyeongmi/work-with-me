@@ -25,12 +25,17 @@ h3 {
   margin-top: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
 #HCB_comment_box {
   padding-top: 50px;
   padding-left: 25px;
+  font-family: "Nanum Myeongjo", serif;
 }
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
+#secondfont {
+  font-family: "Nanum Myeongjo", serif;
+}
 .mainfont {
   vertical-align: center;
   font-family: "Nanum Myeongjo", serif;
