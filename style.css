@@ -24,3 +24,14 @@ h1 {
     display: block;
   }
 }
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  #grid {
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 479px) {
+  #grid {
+    display: block;
+  }
+}
