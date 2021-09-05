@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
 body,
 html {
   margin: 0;
@@ -25,12 +27,9 @@ h3 {
   margin-top: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
-
 #HCB_comment_box {
   padding-top: 50px;
   padding-left: 25px;
-  font-family: "Nanum Myeongjo", serif;
 }
 
 #secondfont {
@@ -51,7 +50,11 @@ h3 {
     display: block;
   }
   #date {
-    font-size: 80px;
+    font-size: 90px;
+  }
+
+  .mainfont {
+    font-size: 90px;
   }
 }
 
@@ -60,7 +63,10 @@ h3 {
     display: block;
   }
   #date {
-    font-size: 80px;
+    font-size: 90px;
+  }
+  .mainfont {
+    font-size: 90px;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 479px) {
@@ -68,7 +74,11 @@ h3 {
     display: block;
   }
   #date {
-    font-size: 80px;
+    font-size: 90px;
+  }
+
+  .mainfont {
+    font-size: 90px;
   }
 }
 
@@ -78,6 +88,9 @@ h3 {
   }
 
   #date {
-    font-size: 80px;
+    font-size: 90px;
+  }
+  .mainfont {
+    font-size: 90px;
   }
 }
