@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Serif+KR:wght@200&display=swap");
 
 body,
 html {
@@ -28,16 +28,16 @@ h3 {
 }
 
 #HCB_comment_box {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-left: 25px;
 }
 
 #secondfont {
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Noto Serif KR", serif;
 }
 .mainfont {
   vertical-align: center;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Noto Serif KR", serif;
   font-size: 50px;
   vertical-align: center;
 }
