@@ -12,6 +12,7 @@ html {
   height: 100%;
 }
 #main {
+  position: fixed;
   padding-left: 25px;
   padding-top: 0;
   display: block;
