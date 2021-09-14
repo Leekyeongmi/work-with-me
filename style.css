@@ -29,6 +29,13 @@ html {
   margin-top: 0;
   padding-top: 50px;
 }
+#main a {
+  color: black;
+}
+#main a:hover {
+  font-style: oblique;
+}
+
 h3 {
   margin-top: 0;
 }
