@@ -15,7 +15,6 @@ html {
   padding-left: 25px;
   padding-top: 0;
   display: block;
-
   background: linear-gradient(
     to top,
     #f7797d,
@@ -24,6 +23,12 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   height: 100%;
+}
+#date ::selection,
+p::selection,
+a::selection {
+  background-color: darkorchid;
+  color: white;
 }
 #date {
   margin-top: 0;
