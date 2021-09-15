@@ -16,7 +16,7 @@ html {
   padding-top: 0;
   display: block;
   background: linear-gradient(
-    to right,
+    to bottom,
     #79b4b7,
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
