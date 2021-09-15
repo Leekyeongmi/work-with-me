@@ -16,7 +16,7 @@ html {
   padding-top: 0;
   display: block;
   background: linear-gradient(
-    to bottom,
+    to right,
     #79b4b7,
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -83,6 +83,9 @@ h3 {
   .mainfont {
     font-size: 60px;
   }
+  #main {
+    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+  }
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
@@ -94,6 +97,9 @@ h3 {
   }
   .mainfont {
     font-size: 90px;
+  }
+  #main {
+    background: linear-gradient(to bottom, #79b4b7, #ffffff);
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 479px) {
@@ -107,6 +113,9 @@ h3 {
   .mainfont {
     font-size: 90px;
   }
+  #main {
+    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
@@ -119,5 +128,8 @@ h3 {
   }
   .mainfont {
     font-size: 90px;
+  }
+  #main {
+    background: linear-gradient(to bottom, #79b4b7, #ffffff);
   }
 }
