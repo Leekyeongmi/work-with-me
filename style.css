@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Serif+KR:wght@200&display=swap");
 
+:root {
+  --main-color: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  --main-color-phone: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+}
+
 body,
 html {
   margin: 0;
@@ -15,11 +20,7 @@ html {
   padding-left: 25px;
   padding-top: 0;
   display: block;
-  background: linear-gradient(
-    to right,
-    #79b4b7,
-    #ffffff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--main-color);
 
   height: 100%;
 }
@@ -84,7 +85,7 @@ h3 {
     font-size: 60px;
   }
   #main {
-    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+    background: var(--main-color-phone);
   }
 }
 
@@ -99,7 +100,7 @@ h3 {
     font-size: 90px;
   }
   #main {
-    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+    background: var(--main-color-phone);
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 479px) {
@@ -114,7 +115,7 @@ h3 {
     font-size: 90px;
   }
   #main {
-    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+    background: var(--main-color-phone);
   }
 }
 
@@ -130,6 +131,6 @@ h3 {
     font-size: 90px;
   }
   #main {
-    background: linear-gradient(to bottom, #79b4b7, #ffffff);
+    background: var(--main-color);
   }
 }
