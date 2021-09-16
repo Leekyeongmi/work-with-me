@@ -38,15 +38,15 @@
     both;
 }
 body {
+  background: linear-gradient(to top, #00f260, #0575e6);
   height: 100vh;
   margin: 0;
 }
 div {
-  background: linear-gradient(to top, #00f260, #0575e6);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 img {
