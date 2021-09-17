@@ -18,11 +18,11 @@ div:nth-child(2) {
 }
 
 div:nth-child(2) p {
-  margin: 5px;
+  margin: 3px;
 }
 
 img {
-  width: 50%;
+  width: 40%;
 }
 
 @keyframes flow {
