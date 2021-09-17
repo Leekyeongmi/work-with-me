@@ -38,6 +38,15 @@ img {
   animation: flow 8s linear infinite;
   transform: translateX(100%);
   width: 100%;
+  transition: all 1s ease-in-out;
+}
+.link {
+  text-decoration: none;
+}
+
+.link :hover {
+  color: gold;
+  font-size: 50px;
 }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 479px) {
