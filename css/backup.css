@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background: linear-gradient(to top, #f7ff00, #db36a4);
+  height: 100vh;
+}
+
+div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+div:nth-child(2) p {
+  margin: 5px;
+}
+
+img {
+  width: 50%;
+}
+
+@keyframes flow {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.target {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  animation: flow 8s linear infinite;
+  transform: translateX(100%);
+  width: 100%;
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 479px) {
+  img {
+    width: 75%;
+  }
+  .target {
+    animation: flow 5s linear infinite;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  img {
+    width: 75%;
+  }
+  .target {
+    animation: flow 5s linear infinite;
+  }
+}
