@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Serif+KR:wght@200&display=swap");
 
 :root {
-  --main-color: linear-gradient(to right, #faf86d, #ffffff);
-  --main-color-phone: linear-gradient(to bottom, #faf86d, #ffffff);
+  --main-color: #fce38a;
+  --main-color-phone: #fce38a;
 }
 
 body,
