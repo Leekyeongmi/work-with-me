@@ -52,6 +52,7 @@ a {
 @media (max-width: 780px) {
   .gift {
     font-size: 80px;
+    font-weight: 600;
   }
   .gift:hover {
     transform: scale(1.2, 1.2);
@@ -64,7 +65,8 @@ a {
     background-size: 100vh auto;
   }
   .gift {
-    font-size: 40px;
+    font-size: 40px;s
+    font-weight: 600;
   }
   .gift:hover {
     transform: scale(1.2, 1.2);
