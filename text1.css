@@ -15,7 +15,22 @@ body {
   height: 100vh;
 }
 
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .gift {
+  animation: blink-2 1s both;
+  animation-iteration-count: 2;
+
   transition: all 1.5s ease;
   font-size: 100px;
 }
