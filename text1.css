@@ -64,10 +64,10 @@ a {
     background-size: 100vh auto;
   }
   .gift {
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 600;
   }
   .gift:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
   }
 }
