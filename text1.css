@@ -1,0 +1,57 @@
+body {
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1546979348-7a211780ad7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gift {
+  transition: all 1.5s ease;
+  font-size: 100px;
+}
+
+.gift:hover {
+  color: #fcd896;
+  transform: scale(1.2, 1.2);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/* 미디어 쿼리 */
+
+@media (max-width: 780px) {
+  .gift {
+    font-size: 80px;
+  }
+  .gift:hover {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  body {
+    height: 100vh;
+    background-size: 100vh auto;
+  }
+  .gift {
+    font-size: 35px;
+  }
+  .gift:hover {
+    transform: scale(1.2, 1.2);
+  }
+}

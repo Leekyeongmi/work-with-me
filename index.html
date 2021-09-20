@@ -1,127 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <title>GoldPoop</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="poop.png" />
-    <meta charset="utf-8" />
-    <meta property="og:title" content="Work With Me" />
-    <meta property="og:image" content="som.jpg" />
-    <meta property="og:description" content="Let's Work Together!" />
-    <link rel="stylesheet" href="style.css" />
-    <script>
-      function imageshow() {
-        document.querySelector("img").style.display = "block";
-      }
-      function imagegone() {
-        document.querySelector("img").style.display = "none";
-      }
-      function colorChange(choice) {
-        var alist = document.querySelectorAll("a");
-        var i = 0;
-        while (i < 2) {
-          alist[i].style.color = choice;
-          i++;
-        }
-      }
-      function switchHandler(self) {
-        var target = document.querySelector("#main");
-        if (self.value === "🌛") {
-          target.style.background = "black";
-          document.querySelector("#date").style.color = "white";
-          colorChange("pink");
-          self.value = "🌞";
-        } else {
-          target.style.backgroundColor = "#fce38a";
-          document.querySelector("#date").style.color = "black";
-          colorChange("black");
-          self.value = "🌛";
-        }
-      }
-    </script>
+    <link rel="stylesheet" href="./text1.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuseok</title>
   </head>
   <body>
+    <div class="status-bar">
+      <a
+        onclick="setTimeout(function(){showLink()}, 1000)"
+        class="gift"
+        href="#"
+      >
+        HAPPY CHUSEOK
+      </a>
+    </div>
     <script>
-      var result = confirm("작업할거밍?💩");
-      if (result) {
-      } else {
-        location.href = "https://www.youtube.com/watch?v=lIQ2V_aBMII";
+      function showLink() {
+        location.href =
+          "https://www.youtube.com/watch?v=97_VJve7UVc&list=RD97_VJve7UVc&start_radio=1";
       }
     </script>
-
-    <div id="grid">
-      <div id="main">
-        <p id="date" class="mainfont">
-          <strong>DATE</strong> 2021. 9. 20. (월)<br />
-          <strong>OPEN </strong> AM 11:00 <br />
-          <strong>CLOSE </strong> PM 8:00 <br />
-        </p>
-        <img
-          src="cutesom.jpg"
-          style="
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 700px;
-            width: 650px;
-          "
-        />
-        <a class="mainfont forSize" href="caution.html">📌 Notice</a><br />
-        <a
-          class="mainfont"
-          href="https://us02web.zoom.us/j/83598095077?pwd=QU83TU9qVXJoelVaU0EvV1JYYVRVdz09"
-          onmouseover="imageshow();"
-          onmouseout="imagegone();"
-          <!--
-          onclick="location.href='https://us02web.zoom.us/j/78043450937?pwd=OUdmdy83ck05ampqc2xmUkZ6RkZLdz09'"
-          --
-        >
-          👩🏻 Join With Me?</a
-        ><br />
-
-        <input
-          id="switchHandler"
-          type="button"
-          value="🌛"
-          onclick="switchHandler(this)"
-          position="sticky"
-        />
-      </div>
-      <div id="secondfont">
-        <!-- begin wwww.htmlcommentbox.com -->
-        <div id="HCB_comment_box">
-          <a href="http://www.htmlcommentbox.com">Widget</a> is loading
-          comments...
-        </div>
-
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"
-        />
-        <script type="text/javascript" id="hcb">
-          /*<!--*/ if (!window.hcb_user) {
-            hcb_user = {};
-          }
-          (function () {
-            var s = document.createElement("script"),
-              l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-              h = "https://www.htmlcommentbox.com";
-            s.setAttribute("type", "text/javascript");
-            s.setAttribute(
-              "src",
-              h +
-                "/jread?page=" +
-                encodeURIComponent(l).replace("+", "%2B") +
-                "&mod=%241%24wq1rdBcg%24bBoAdrc0GWZBOKhPus%2Fit1" +
-                "&opts=16798&num=10&ts=1630405502560"
-            );
-            if (typeof s != "undefined")
-              document.getElementsByTagName("head")[0].appendChild(s);
-          })(); /*-->*/
-        </script>
-        <!-- end www.htmlcommentbox.com -->
-      </div>
-    </div>
+    <script
+      src="https://kit.fontawesome.com/3c8088fef4.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
