@@ -49,7 +49,7 @@ a {
     background-size: 100vh auto;
   }
   .gift {
-    font-size: 35px;
+    font-size: 40px;
   }
   .gift:hover {
     transform: scale(1.2, 1.2);
