@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+body,
+html {
+  background: blue;
+  margin: 0;
+  height: 100vh;
+}
+
+a {
+  color: black;
+}
+
+.status-bar {
+  background-color: #e9e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 7px 8px;
+  width: 100%;
+}
+
+.status-bar__column {
+  font-size: 25px;
+  width: 33%;
+}
+.status-bar__column:first-child span {
+  margin-right: 3px;
+}
+.status-bar__column:nth-child(2) {
+  text-align: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-play-circle {
+  margin: 0px 7px;
+}
+
+.wrapper {
+  height: 90vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 17.3ch;
+  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 3.5em;
+  color: whitesmoke;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* 미디어 쿼리 */
+
+@media (max-width: 780px) {
+  .typing-demo {
+    font-size: 2em;
+  }
+  .status-bar__column {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  .typing-demo {
+    font-size: 2em;
+  }
+  .status-bar__column {
+    font-size: 18px;
+  }
+}
