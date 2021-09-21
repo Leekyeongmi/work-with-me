@@ -9,6 +9,7 @@ html {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 .status-bar {
@@ -38,8 +39,8 @@ a {
   align-items: center;
 }
 
-.status-bar__column .fa-play-circle {
-  margin: 0px 9px;
+.status-bar__column .fa-map {
+  margin: 0px 8px;
 }
 
 .wrapper {
