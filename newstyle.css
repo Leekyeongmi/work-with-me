@@ -4,7 +4,7 @@ body,
 html {
   background: blue;
   margin: 0;
-  height: 100vh;
+
   font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -78,7 +78,6 @@ a {
 
 .notice-content {
   color: white;
-
   font-size: 30px;
 }
 
@@ -93,6 +92,13 @@ a {
 
 .video {
   display: none;
+}
+.music-body {
+  height: 100vh;
+}
+
+.notice-body {
+  height: 150vh;
 }
 
 .grid {
