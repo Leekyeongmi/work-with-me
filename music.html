@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ko">
   <head>
@@ -67,3 +68,74 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="newstyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuriTel</title>
+  </head>
+  <body onload="startTime()">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SuriTel</span>
+        <i class="fas fa-wifi fa-lg"></i>
+      </div>
+      <div class="status-bar__column">
+        <div id="txt"></div>
+      </div>
+      <div class="status-bar__column">
+        <!-- 여기 수정하면 됩니다 -->
+        <a
+          href="https://us02web.zoom.us/j/83598095077?pwd=QU83TU9qVXJoelVaU0EvV1JYYVRVdz09"
+          ><i class="fas fa-toilet fa-lg"></i
+        ></a>
+        <a target="_target" href="music.html"
+          ><i class="fas fa-headphones fa-lg"></i
+        ></a>
+        <a href="notice.html"><i class="far fa-comment-dots fa-lg"></i></a>
+      </div>
+    </div>
+    <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5RWdWMpyw0w"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="comment">
+      <span>화면을 가로로 돌려볼래욤🤔</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/3c8088fef4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function startTime() {
+        const today = new Date();
+        let h = today.getHours();
+        let m = today.getMinutes();
+        let s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById("txt").innerHTML = h + ":" + m + ":" + s;
+        setTimeout(startTime, 1000);
+      }
+
+      function checkTime(i) {
+        if (i < 10) {
+          i = "0" + i;
+        } // add zero in front of numbers < 10
+        return i;
+      }
+    </script>
+  </body>
+</html>
+>>>>>>> faa042c18fa7f835aab00599af50dfa010040d73
