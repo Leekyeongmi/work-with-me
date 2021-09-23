@@ -11,6 +11,11 @@
   .grid {
     display: block;
   }
+
+  #HCB_comment_box {
+    padding-top: 15px;
+    border-top: 1px solid white;
+  }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
@@ -26,6 +31,11 @@
   }
   .grid {
     display: block;
+  }
+
+  #HCB_comment_box {
+    padding-top: 15px;
+    border-top: 1px solid white;
   }
 }
 
