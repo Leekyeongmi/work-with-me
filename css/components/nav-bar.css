@@ -20,12 +20,12 @@
   position: relative;
 }
 
-.fa-toilet {
-  transition: color 1s ease;
+.nav__link .fa-toilet {
+  transition: color 1s ease-in-out;
 }
 
-.fa-toilet:hover {
-  color: gold;
+.nav__link .fa-toilet:hover {
+  color: #fdef76;
 }
 
 .nav__notice {
