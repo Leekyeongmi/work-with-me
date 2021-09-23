@@ -4,24 +4,24 @@
   align-items: center;
   color: white;
   font-size: 20px;
-  height: 100vh;
+  height: 95vh;
 }
 
 .video {
   display: none;
 }
 .music-body {
-  height: 100vh;
+  height: 95vh;
 }
 
 .notice-body {
-  height: 100vh;
+  height: 90vh;
 }
 
 .notice-content {
   color: white;
   font-size: 30px;
-  margin: 25px 20px;
+  margin: 10px 20px;
 }
 .notice-content li {
   margin: 10px 0px;

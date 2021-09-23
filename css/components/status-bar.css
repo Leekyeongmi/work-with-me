@@ -5,12 +5,12 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 5px 7px;
+  padding: 7px 7px;
   width: 100%;
 }
 
 .status-bar__column {
-  font-size: 17px;
+  font-size: 18px;
   width: 33.3%;
 }
 .status-bar__column:first-child a {
