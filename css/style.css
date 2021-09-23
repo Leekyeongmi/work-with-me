@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+@import url("reset.css");
+@import url("variable.css");
+
+/* components */
+@import url("components/status-bar.css");
+@import url("components/typing.css");
+@import url("components/notice.css");
+@import url("components/media.css");
+@import url("components/nav-bar.css");
+
+body,
+html {
+  background: var(--main-color);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

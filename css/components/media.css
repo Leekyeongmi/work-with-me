@@ -1,0 +1,45 @@
+@media (max-width: 780px) {
+  .typing-demo {
+    font-size: 2em;
+  }
+  .status-bar__column {
+    font-size: 17px;
+  }
+  .notice-content {
+    font-size: 20px;
+  }
+  .grid {
+    display: block;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  .typing-demo {
+    font-size: 2em;
+  }
+  .status-bar__column {
+    font-size: 17px;
+  }
+
+  .notice-content {
+    font-size: 20px;
+  }
+  .grid {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 500px) and (orientation: landscape) {
+  .video {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .instruction {
+    display: none;
+  }
+}

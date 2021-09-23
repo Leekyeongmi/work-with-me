@@ -1,0 +1,39 @@
+.instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.video {
+  display: none;
+}
+.music-body {
+  height: 100vh;
+}
+
+.notice-body {
+  height: 100vh;
+}
+
+.notice-content {
+  color: white;
+  font-size: 30px;
+  margin: 25px 20px;
+}
+.notice-content li {
+  margin: 10px 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  padding-top: 50px;
+}
+
+#HCB_comment_box {
+  margin: 25px 20px;
+  color: white;
+}

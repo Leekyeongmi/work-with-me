@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <link rel="stylesheet" href="newstyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,26 +17,22 @@
         <div id="txt"></div>
       </div>
       <div class="status-bar__column">
-        <!-- 여기 수정하면 됩니다 -->
-        <a
-          href="https://us02web.zoom.us/j/83598095077?pwd=QU83TU9qVXJoelVaU0EvV1JYYVRVdz09"
-          ><i class="fas fa-toilet fa-lg"></i
-        ></a>
-        <a target="_target" href="music.html"
-          ><i class="fas fa-headphones fa-lg"></i
-        ></a>
-        <a href="notice.html"><i class="far fa-comment-dots fa-lg"></i></a>
+        <i
+          id="switch"
+          class="fas fa-toggle-on fa-lg"
+          onclick="switchHandler()"
+        ></i>
       </div>
     </div>
+
     <div class="grid">
       <div class="notice-content">
-        <ul>
-          <h2>NOTICE 😎</h2>
-          <li>시간은 <u>아침 10시에 업데이트</u>됩니다.</li>
-          <li><u>입장/퇴장은 자유롭게</u> 해주세요.</li>
-          <li><u>음소거 입장</u>입니다.</li>
-          <li><u>웹페이지는 29일에 종료</u>됩니다.</li>
-        </ul>
+        <h1>NOTICE 😎</h1>
+        <br />
+        <li>시간은 <u>아침 10시에 업데이트</u>됩니다.</li>
+        <li><u>입장/퇴장은 자유롭게</u> 해주세요.</li>
+        <li><u>음소거 입장</u>입니다.</li>
+        <li><u>웹페이지는 29일에 종료</u>됩니다.</li>
       </div>
       <!-- begin wwww.htmlcommentbox.com -->
       <div id="HCB_comment_box">
@@ -69,30 +65,41 @@
             document.getElementsByTagName("head")[0].appendChild(s);
         })(); /*-->*/
       </script>
-      <!-- end www.htmlcommentbox.com -->
+    </div>
+    <div class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="index.html"
+            ><i class="fas fa-home fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i
+              class="fas fa-toilet fa-2x"
+              onclick="setTimeout(function(){showLink()}, 1000)"
+            ></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" target="_target" href="music.html"
+            ><i class="fas fa-headphones fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="notice.html"
+            ><i class="far fa-comment-dots fa-2x"></i
+            ><span class="nav__notice">N</span></a
+          >
+        </li>
+      </ul>
     </div>
     <script
       src="https://kit.fontawesome.com/3c8088fef4.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function startTime() {
-        const today = new Date();
-        let h = today.getHours();
-        let m = today.getMinutes();
-        let s = today.getSeconds();
-        m = checkTime(m);
-        s = checkTime(s);
-        document.getElementById("txt").innerHTML = h + ":" + m + ":" + s;
-        setTimeout(startTime, 1000);
-      }
-
-      function checkTime(i) {
-        if (i < 10) {
-          i = "0" + i;
-        } // add zero in front of numbers < 10
-        return i;
-      }
-    </script>
+    <script src="js/clock.js"></script>
+    <script src="js/showlink.js"></script>
+    <script src="js/switch.js"></script>
   </body>
 </html>
