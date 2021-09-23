@@ -15,7 +15,7 @@
         <i
           title="meow-"
           id="wifi"
-          onclick="changeSom()"
+          onclick="document.getElementById('wifi').className = 'fas fa-cat fa-lg'"
           class="fas fa-wifi fa-lg"
         ></i>
       </div>
@@ -24,6 +24,7 @@
       </div>
       <div class="status-bar__column">
         <i
+          style="cursor: pointer"
           id="switch"
           class="fas fa-toggle-on fa-lg"
           onclick="switchHandler()"

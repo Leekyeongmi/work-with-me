@@ -9,7 +9,4 @@ function switchHandler() {
    }
 }
 
-function changeSom(){
-    document.getElementById('wifi').className = "fas fa-cat fa-lg";
-}
 
