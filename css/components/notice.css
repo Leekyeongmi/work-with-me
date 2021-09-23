@@ -21,7 +21,7 @@
 .notice-content {
   color: white;
   font-size: 30px;
-  margin: 10px 20px;
+  margin: 10px 20px 20px 20px;
 }
 .notice-content li {
   margin: 10px 0px;
@@ -34,6 +34,6 @@
 }
 
 #HCB_comment_box {
-  margin: 20px 20px;
+  margin: 10px 20px;
   color: white;
 }
