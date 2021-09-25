@@ -1,7 +1,10 @@
 @media (max-width: 780px) {
-  .typing-demo {
+  /* .typing-demo {
     font-size: 1.8em;
     width: 21.2ch;
+  } */
+  h1 {
+    font-size: 13vw;
   }
   .status-bar__column {
     font-size: 18px;
@@ -20,9 +23,13 @@
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
-  .typing-demo {
+  /* .typing-demo {
     font-size: 1.8em;
     width: 21.2ch;
+  } */
+
+  h1 {
+    font-size: 13vw;
   }
   .status-bar__column {
     font-size: 18px;
