@@ -60,11 +60,9 @@
         </li>
       </ul>
     </div>
-
-    <h1 contenteditable data-heading="9/25 10:30am 9:00pm">
-      9/25 10:30am 9:00pm
-    </h1>
-
+    <div class="typing-text__container">
+      <h1 class="typing-text"></h1>
+    </div>
     <script
       src="https://kit.fontawesome.com/3c8088fef4.js"
       crossorigin="anonymous"
@@ -72,14 +70,6 @@
     <script src="js/clock.js"></script>
     <script src="js/showlink.js"></script>
     <script src="js/switch.js"></script>
-    <script>
-      // JS for content editable trick from Chris Coyier
-
-      var h1 = document.querySelector("h1");
-
-      h1.addEventListener("input", function () {
-        this.setAttribute("data-heading", this.innerText);
-      });
-    </script>
+    <script src="js/typing.js"></script>
   </body>
 </html>
