@@ -11,7 +11,7 @@ h1 {
 }
 
 .typing-text::after {
-  content: "_";
+  content: "|";
   animation: blink ease 1s infinite;
   white-space: pre;
 }
