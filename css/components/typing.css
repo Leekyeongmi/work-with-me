@@ -5,12 +5,13 @@
   height: 95vh;
 }
 
-h1 {
+h1,
+.typing-text__container::after {
   color: white;
   font-size: 70px;
 }
 
-.typing-text::after {
+.typing-text__container::after {
   content: "|";
   animation: blink ease 1s infinite;
   white-space: nowrap;

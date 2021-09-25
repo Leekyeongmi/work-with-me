@@ -1,5 +1,6 @@
 @media (max-width: 780px) {
-  h1 {
+  h1,
+  .typing-text__container::after {
     font-size: 35px;
   }
   .status-bar__column {
@@ -19,7 +20,8 @@
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
-  h1 {
+  h1,
+  .typing-text__container::after {
     font-size: 35px;
   }
   .status-bar__column {
