@@ -28,6 +28,7 @@
   color: gold;
 }
 
+.nav__notice__h,
 .nav__notice {
   background-color: tomato;
   width: 21px;
@@ -41,4 +42,8 @@
   position: absolute;
   left: 20px;
   bottom: 18px;
+}
+
+.nav__notice {
+  display: none;
 }
