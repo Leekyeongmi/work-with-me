@@ -3,7 +3,7 @@ const text = document.querySelector(".typing-text");
 
 // make a words array
 const words = [
-  "✅ 9.25. SAT.",
+  "✅ 9. 25. SAT.",
   "OPEN/ 8:00AM",
   "CLOSE/ 8:00PM",
   "repeat.",

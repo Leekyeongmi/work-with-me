@@ -14,7 +14,7 @@ h1 {
   content: "|";
   animation: blink ease 1s infinite;
   white-space: pre;
-  /* word-wrap: nowrap; */
+  word-wrap: nowrap;
 }
 
 @keyframes blink {
