@@ -64,8 +64,6 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #bdc3c7, #2c3e50);
-    color: white;
-    font-size: 40px;
     width: 100%;
     height: 100%;
     /*
@@ -76,11 +74,14 @@
 
   .video a {
     color: white;
-    transition: color 2s ease;
+    font-size: 30px;
+    transition: all 1s linear;
+    white-space: pre;
   }
 
   .video a:hover {
-    color: black;
+    transform: scale(1.1, 1.1);
+    color: #bdc3c7;
   }
 
   .instruction {
