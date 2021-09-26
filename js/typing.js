@@ -3,9 +3,9 @@ const text = document.querySelector(".typing-text");
 
 // make a words array
 const words = [
-  "✅ 9/26 Sun",
+  "✅ 9/27 Mon",
   "OPEN 10:30AM",
-  "CLOSE 7:00PM",
+  "CLOSE 8:00PM",
   "〰repeat〰",
 ];
 
