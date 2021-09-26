@@ -1,7 +1,7 @@
 @media (max-width: 780px) {
   h1,
   .typing-text__container::after {
-    font-size: 35px;
+    font-size: 30px;
   }
   .status-bar__column {
     font-size: 18px;
@@ -22,7 +22,7 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 479px) {
   h1,
   .typing-text__container::after {
-    font-size: 35px;
+    font-size: 30px;
   }
   .status-bar__column {
     font-size: 18px;
@@ -38,6 +38,13 @@
   #HCB_comment_box {
     padding-top: 15px;
     border-top: 1px solid white;
+  }
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 319px) {
+  h1,
+  .typing-text__container::after {
+    font-size: 30px;
   }
 }
 

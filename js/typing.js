@@ -3,10 +3,10 @@ const text = document.querySelector(".typing-text");
 
 // make a words array
 const words = [
-  "✅ 9. 25. SAT.",
-  "OPEN/ 8:00AM",
-  "CLOSE/ 8:00PM",
-  "repeat.",
+  "✅ 9/26 Sun",
+  "OPEN 10:30AM",
+  "CLOSE 7:00PM",
+  "〰repeat〰",
 ];
 
 // start typing effect
