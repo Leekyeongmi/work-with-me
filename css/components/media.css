@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    background: linear-gradient(to left, #003973, #e5e5be);
     width: 100%;
     height: 100%;
     /*
@@ -72,7 +72,20 @@
     height: 100%; */
   }
 
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .video a {
+    animation: blink-2 1s both;
+    animation-iteration-count: 2;
     color: white;
     font-size: 30px;
     transition: all 1s linear;

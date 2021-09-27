@@ -10,6 +10,10 @@
 .video {
   display: none;
 }
+.video a {
+  font-size: 80px;
+}
+
 .music-body {
   height: 95vh;
 }
