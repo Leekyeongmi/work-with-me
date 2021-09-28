@@ -19,7 +19,7 @@
 }
 
 .notice-body {
-  height: 400vh;
+  height: 500vh;
 }
 
 .notice-content {
@@ -50,4 +50,5 @@
 #HCB_comment_box {
   margin: 10px 20px;
   color: white;
+  height: 95%;
 }
