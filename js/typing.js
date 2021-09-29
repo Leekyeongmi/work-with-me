@@ -3,9 +3,9 @@ const text = document.querySelector(".typing-text");
 
 // make a words array
 const words = [
-  "✅ 9/29 Wed",
-  "OPEN 10:00AM",
-  "CLOSE 8:00PM",
+  "✅ SuriTel 영업종료",
+  "다음에",
+  "또 만나요",
   "〰good bye〰",
 ];
 
