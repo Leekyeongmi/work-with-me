@@ -74,7 +74,7 @@
     border: 3px solid gold;
     border-radius: 10000px;
     animation-name: rotate;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
   }
