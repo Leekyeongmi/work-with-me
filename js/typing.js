@@ -3,7 +3,7 @@ const text = document.querySelector(".typing-text");
 
 // make a words array
 const words = [
-  "✅ SuriTel 영업종료",
+  "✅ SuriTel 종료",
   "다음에",
   "또 만나요",
   "〰good bye〰",
