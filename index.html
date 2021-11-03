@@ -1,30 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <style>
-      .imgtarget {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .imgtarget img {
-        transform: translateY(100px);
-        border-radius: 100%;
-        animation-name: secondrotate;
-        animation-duration: 1s;
-        animation-iteration-count: 10;
-        animation-timing-function: ease;
-      }
-
-      @keyframes secondrotate {
-        from {
-          transform: rotate(-360deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
     <link rel="shortcut icon" href="poop.png" />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
@@ -55,9 +31,6 @@
         ></i>
       </div>
     </div>
-    <div class="imgtarget">
-      <img src="myself.jpg" width="90%" />
-    </div>
     <div class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -87,9 +60,9 @@
         </li>
       </ul>
     </div>
-    <!-- <div class="typing-text__container">
+    <div class="typing-text__container">
       <h1 class="typing-text"></h1>
-    </div> -->
+    </div>
     <script
       src="https://kit.fontawesome.com/3c8088fef4.js"
       crossorigin="anonymous"
@@ -97,6 +70,6 @@
     <script src="js/clock.js"></script>
     <script src="js/showlink.js"></script>
     <script src="js/switch.js"></script>
-    <!-- <script src="js/typing.js"></script> -->
+    <script src="js/typing.js"></script>
   </body>
 </html>
